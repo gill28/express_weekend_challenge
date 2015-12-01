@@ -2,19 +2,10 @@ extends layout
 
 block content
 
-  image(src="#{meme.url}")
-  div.comment
-    each val in comment.message
-    p= val
+  image.imgComment(src="#{meme.url}")
+  p.memeCommentd= comment.message
 
-    form(name="add-message", method="post" action="/")
+  form.form( name="add-message" method="post" action="/post" class="form")
+    input(name="message" type="text")
 
-      div
-      input(name="message" type="text")
-
-      div
-        input(type="hidden" name="memeID" value="#{meme.id}")
-        input(type="submit" value="Share")
-        input(type="reset", value="RESET")
-
-        a(href="/") Back to MemesNation
+  a(href="/" class="back") Back to meme nation

@@ -25,3 +25,21 @@ h1 {
   width: 200px;
   height: 200px;
 }
+
+.form {
+  text-align: center;
+  }
+
+.imgComment {
+  margin-left: 275px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.back {
+  font-size: 25px;
+}

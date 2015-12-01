@@ -1,0 +1,27 @@
+body {
+  background-color: grey;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 3px 4px 8px rgb(80, 182, 46);
+}
+
+.display {
+  display: inline-block;
+
+}
+.thumbnail {
+  display: inline-block;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+}

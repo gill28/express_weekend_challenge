@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  for meme in data
+    a(href="/memes/#{meme.id}")
+      div.display
+        image.thumbnail(src= meme.url)
